@@ -27,7 +27,7 @@ Step 6.
 Step 7.
     ``` arr[j + 1] = currentValue; //Once our while loop is completed we take our currentValue that is "floating" in our saved variable and assign it to the index in front of j. } ```
 
-    ![The Reassigning of our floating currentValue](insertionCode.png)
+![The Reassigning of our floating currentValue](insertionCode.png)
 
 Step 8.
     ``` return arr; //Here we return our newly sorted arr. }; ```
