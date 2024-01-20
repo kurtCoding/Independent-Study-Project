@@ -71,4 +71,8 @@ return arr; //Here we return our newly sorted arr. };
 //Also in cases when when the array is in descending order, since the insertion sort has to go through each element and check it against each element before it every time. This can make your time complexity skyrocket and should prompt you to try another method!
 ```
 ## Citations
+[w3resource](https://www.w3resource.com/javascript-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-4.php)
 
+[Raz independent-study-readme file](https://github.com/10-6-pursuit/independent-study-project-example/blob/main/index.js)
+
+[Screenshot](https://www.google.com/search?q=insertion+sort+js&sca_esv=599294221&rlz=1C5CHFA_enUS1084US1084&ei=fgWsZfLZHtm0ptQP4YmzyAM&ved=0ahUKEwjykNa2weyDAxVZmokEHeHEDDkQ4dUDCBA&uact=5&oq=insertion+sort+js&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWluc2VydGlvbiBzb3J0IGpzMgUQABiABDIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0i6HlD3FFiEG3ABeAGQAQCYAU6gAdMBqgEBM7gBA8gBAPgBAcICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgILEAAYgAQYigUYkQLCAgsQABiABBixAxiDAeIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp#fpstate=ive&vld=cid:78a63631,vid:tVGQm4usQts,st:0)
