@@ -51,19 +51,24 @@ return arr; //Here we return our newly sorted arr. };
 
 ## Big O Evaluation
 
-
-
 ### Time Complexity
-
+```js
+//The time complexity of the Insertion Sort algorithm is O(n^2) in the worst case, and O(n) in the best case.
+```
 
 
 ### Space Complexity
 
 ## Use Cases
-
-
+```js
+//Insertion Sort is optimal for smaller sized inputs because as the input size increases the algorithm's running time also increase rapidly. 
+//Insertion Sort is a stable sorting algorithm that maintains the relative order of equal elements.
+```
 
 ## Edge Cases and Concerns
-
+```js
+//Although Insertion sort is optimal when being used on small input sizes, when the input size grows to larger varieties insertion sort is not the best algorithm to use. 
+//Also in cases when when the array is in descending order, since the insertion sort has to go through each element and check it against each element before it every time. This can make your time complexity skyrocket and should prompt you to try another method!
+```
 ## Citations
 
