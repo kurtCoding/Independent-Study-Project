@@ -7,30 +7,37 @@ Insertion sort is a sorting algorithm that sorts an array by inserting each elem
 ## Algorithm Description
 
 Step 1. 
-    ```js for (let i = 1; i < arr.length; i++) {  //Here we use a traditional for loop to iterate over an array with i initialized to index 1 instead of 0. ```
+```js for (let i = 1; i < arr.length; i++) {  //Here we use a traditional for loop to iterate over an array with i initialized to index 1 instead of 0.
+```
 
 Step 2.
-    ```js let currentValue = arr[i]; //Here we assign arr[i] to the variable currentValue. This is an important step because when we find the number before our current index is greater than our current index the previous index becomes the current index (as seen on line 7), so we initialize a variable and set it to the value of our current index so that it's saved and we can use it later. ```
+```js let currentValue = arr[i]; //Here we assign arr[i] to the variable currentValue. This is an important step because when we find the number before our current index is greater than our current index the previous index becomes the current index (as seen on line 7), so we initialize a variable and set it to the value of our current index so that it's saved and we can use it later
+```
 
 Step 3.
-    ```js let j = i - 1; //j is initialized to i - 1 here to have the index that we are comparing our currentValue too. ```
+```js let j = i - 1; //j is initialized to i - 1 here to have the index that we are comparing our currentValue too.
+```
 
 Step 4.
-    ```js while (j >= 0 && arr[j] > currentValue) { //We start a while loop here to implement our logic that once our index j is a valid index and our value at index j is greater than our current value, we want to replace the value at the index in front of j with the value of j. ```
+```js while (j >= 0 && arr[j] > currentValue) { //We start a while loop here to implement our logic that once our index j is a valid index and our value at index j is greater than our current value, we want to replace the value at the index in front of j with the value of j. 
+```
 
 Step 5.
-    ```js arr[j + 1] = arr[j]; //The update of values if our while loop is true happens here. ```
+```js arr[j + 1] = arr[j]; //The update of values if our while loop is true happens here.
+```
 
 Step 6.
     ```js j--; //We decrement j here to continue checking through our already sorted elements to make sure our currentValue is in the correct place. } ```
 
 Step 7.
-    ```js arr[j + 1] = currentValue; //Once our while loop is completed we take our currentValue that is "floating" in our saved variable and assign it to the index in front of j. } ```
+```js arr[j + 1] = currentValue; //Once our while loop is completed we take our currentValue that is "floating" in our saved variable and assign it to the index in front of j. }
+```
 
 ![The Reassigning of our floating currentValue](insertionCode.png)
 
 Step 8.
-    ```js return arr; //Here we return our newly sorted arr. }; ```
+```js return arr; //Here we return our newly sorted arr. };
+```
 
 
 ## Big O Evaluation
