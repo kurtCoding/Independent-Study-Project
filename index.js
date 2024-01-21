@@ -1,7 +1,7 @@
 const insertionSort = (arr) => { // We start by initializing a variable to our Insertion algorithm.
 
     for (let i = 1; i < arr.length; i++) {  //Here we use a traditional for loop to iterate over an array with i initialized to index 1 instead of 0.
-      let currentValue = arr[i]; //Here we assign arr[i] to the variable currentValue. This is an important step because when we find the number before our current index is greater than our current index the previous index becomes the current index (as seen on line 7), so we initialize a variable and set it to the value of our current index so that it's saved and we can use it later.
+      let currentValue = arr[i]; //Here we assign arr[i] to the variable currentValue. This is an important step because when we find the number before our current index is greater than our current index, the previous index becomes the current index (as seen on line 7), so we initialize a variable and set it to the value of our current index so that it's saved and we can use it later.
       let j = i - 1; //j is initialized to i - 1 here to have the index that we are comparing our currentValue too. 
       while (j >= 0 && arr[j] > currentValue) { //We start a while loop here to implement our logic that once our index j is a valid index and our value at index j is greater than our current value, we want to replace the value at the index in front of j with the value of j.
         arr[j + 1] = arr[j]; //The update of values if our while loop is true happens here.
@@ -15,7 +15,7 @@ const insertionSort = (arr) => { // We start by initializing a variable to our I
 
 
 console.log(insertionSort([3, 0, 2, 5, -1, 4, 1]));
-// console.log(insertionSort([2,6,5,12,-1,3,8,7,1,-4,0,23,1,-55,20,37,54,210,-23,7,483,9339,29,-3,90,-2,81,54,7372,-92,93,93,18,-43,21]));
+console.log(insertionSort([2,6,5,12,-1,3,8,7,1,-4,0,23,1,-55,20,37,54,210,-23,7,483,9339,29,-3,90,-2,81,54,7372,-92,93,93,18,-43,21]));
 
 // //Raz's examples
 // console.log(insertionSort([5, 4, 3, 2, 1])); // an array of descending order elements

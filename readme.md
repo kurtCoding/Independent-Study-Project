@@ -9,6 +9,7 @@ Insertion sort is a sorting algorithm that sorts an array by inserting each elem
 Step 1. 
 ```js
 for (let i = 1; i < arr.length; i++) {  //Here we use a traditional for loop to iterate over an array with i initialized to index 1 instead of 0.
+}
 ```
 
 Step 2.
@@ -24,6 +25,7 @@ let j = i - 1; //j is initialized to i - 1 here to have the index that we are co
 Step 4.
 ```js 
 while (j >= 0 && arr[j] > currentValue) { //We start a while loop here to implement our logic that once our index j is a valid index and our value at index j is greater than our current value, we want to replace the value at the index in front of j with the value of j. 
+}
 ```
 
 Step 5.
